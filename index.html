@@ -7,12 +7,43 @@
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="styles.css" />
     
         
     </head>
     <body>
-        <div>
-            <h1>Hi</h1>
+        
+        
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-4">
+                    <h1>Hotel Name</h1>
+                </div>
+
+                <div class="col-8">
+                    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+                        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hotelNavbar" >
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="hotelNavbar">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item"><a class="nav-link" href="#">Accomidations</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Ammenities</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-6 align-items-center">
+                    <img src="imgs/hotel-main-pic.jpg" class="image-fluid" height="600" width="1100">
+                </div>
+            </div>
 
 
         </div>
