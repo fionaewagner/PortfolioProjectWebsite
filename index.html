@@ -8,47 +8,105 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="styles.css" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko|Open+Sans" />
     
         
     </head>
     <body>
-        
-        
-        <div class="container">
-            
-            <div class="row">
-                <div class="col-4">
-                    <h1>Hotel Name</h1>
-                </div>
+         
+         <!--Code for navbar-->
+         <nav class="navbar navbar-expand-xl navbar-dark navbar-inverse sticky-top">
 
-                <div class="col-8">
-                    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-                        
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hotelNavbar" >
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="hotelNavbar">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item"><a class="nav-link" href="#">Accomidations</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Ammenities</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-
-                </div>
+            <a class="navbar-brand" href="#"><h1>GREEN PALMS</h1><h6>hotel</h6></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hotelNavbar" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="hotelNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="accommodations.html">ACCOMMODATIONS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="amenities.html">AMENITIES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reservation.html">RESERVATION</a></li>
+                </ul>
             </div>
+        </nav>
+        <div class="paralax">
             
-            <div class="row">
-                <div class="col-6 align-items-center">
-                    <img src="imgs/hotel-main-pic.jpg" class="image-fluid" height="600" width="1100">
-                </div>
-            </div>
-
-
         </div>
+        <div class="container">
+            <div class="row row-content pg-two">
+                <div class="col bg-layout">
+                   <p class="pt-3">Welcome to... </p>
+                   <h1>Green Palms Hotel</h1>
+                   <p class="add-spacing"> Originally founded in 1995, this luxury hotel has all the 
+                       works you could dream of for your next vacation. 
+                       From our unqiue rooms with stunning views of the 
+                       grounds, to our realxing pool and spa, there's
+                       something here for everyone. 
+                       Book your stay today and embark on an experience 
+                       you'll never forget.
+                   </p>
+                </div>
+                
+            </div>
+            <div class="row row-content">
+                <div class="col-sm-3 bg-layout ">
+                   <h1>Explore Rooms</h1>
+                   <p>Here at Green Palms Hotel, we offer a variety of different
+                    rooms. You'll love our deluxe rooms with choice of a single King bed
+                    or two Queens. Or, try our luxurious Master Suite with all the amenities
+                    one could dream of.
+                   </p>
+                    <a href="accommodations.html" class="bg-secondary pl-2 pr-2">Explore</a>
+                </div>
+                <div class="col-3">
+                    <img class="img-fluid" src="imgs/hotel-rooms.jpeg" height="400" width="250">
+                 </div>
+                 <div class="col-sm-3 bg-layout ">
+                    <h1>Explore Amenities</h1>
+                    <p>Take a dip in our luxury pool, or visit our relaxing spa during
+                        open hours. You will also be grated 24/7 access to our high-end Fitness
+                        Center with an astounding variety of equipment. Or, learn about
+                        our daily free continental breakfast served each morning at
+                        Eight.
+                    </p>
+                     <a href="amenities.html" class="bg-secondary pl-2 pr-2">Explore</a>
+                 </div>
+                 <div class="col-3">
+                     <img class="img-fluid" src="imgs/hotel-amenities.jpeg" height="400" width="250">
+                  </div>
+                 
+            
+        </div>
+        
+        <footer>
+            <div class="container text-center">
+                <div class="row mb-2">
+                    <div class="col">
+                        <h4>Contact</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>202-555-0138</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>Greenpalmshotel@gmail.com</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>Visit us on:</p><a class="text-dark" href="https://www.instagram.com/?hl=en">Instagram  </a> || <a class="text-dark" href="https://www.facebook.com/">Facebook</a>
+                    </div>
+                </div>
+            </div>
 
 
+
+        </footer>
 
         <!--Required scripts-->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>

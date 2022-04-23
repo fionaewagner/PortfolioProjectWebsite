@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags  -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko|Open+Sans" />
+    
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-xl navbar-dark navbar-inverse sticky-top">
+
+            <a class="navbar-brand" href="index.html"><h1>GREEN PALMS</h1><h6>hotel</h6></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hotelNavbar" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="hotelNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="accommodations.html">ACCOMMODATIONS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="amenities.html">AMENITIES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">RESERVATION</a></li>
+                </ul>
+            </div>
+        </nav>
+
+       
+        <div class="paralax-four">
+          <h1 class="title-center-long add-txt-outline d-none d-xl-block">RESERVATION</h1>
+        </div>
+        <div class="container ">
+            
+            <form >
+                <div class="row text-center">
+                    <div class="col">
+                        <label for="arrive" class="row-content">Date of Arrival</label>
+                    </div>
+                </div>
+                <div class="row text-center mt-1 row-content">
+                    <div class="col">
+                        <input type="date" id="arrive"/>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <label for="depart" class="row-content">Date of Departure</label>
+                    </div>
+                </div>
+                <div class="row text-center mt-1 row-content">
+                    <div class="col">
+                        <input type="date" id="depart"/>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <label for="occupancy" class="row-content">Occupancy</label>
+                    </div>
+                </div>
+                <div class="row text-center mt-1 row-content">
+                    <div class="col">
+                        <input type="number" min="0" max="5" value="1" id="occupancy"/>
+                    </div>
+                </div>
+                
+            </form>
+            <ul class="nav nav-tabs ml-5" >
+                <li class="ml-5 pl-5"><a class="text-dark nav-link active" href="#a"  data-toggle="tab">Deluxe King Room</a></li>
+                <li class="ml-5 pl-5"><a class="text-dark nav-link" href="#b"  data-toggle="tab">Deluxe Double Queen</a></li>
+                <li class="ml-5 pl-5"><a class="text-dark nav-link" href="#c"  data-toggle="tab">Master Suite</a></li>
+                
+             </ul>
+             
+             <div class="tab-content row-content ml-5">
+                <div class="tab-pane show active fade "  id="a">
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <img class="img-fluid" src="imgs/hotel-bed-king.avif" height="500" width="700">
+                        </div>
+                        <div class="col-6">
+                            <h1>Deluxe King Room</h1>
+                            <p>Hello</p>
+                            <input type="submit" value="Reserve Now" class="btn bg-layout"></input>
+                        </div>
+                </div>
+                </div>
+                <div class="tab-pane fade"  id="b">
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <img class="img-fluid" src="imgs/hotel-bed-queens.avif" height="500" width="700">
+                        </div>
+                        <div class="col-6">
+                            <h1>Deluxe Double Queen</h1>
+                            <p>Hello</p>
+                            <input type="submit" value="Reserve Now" class="btn bg-layout"></input>
+                        </div>
+                </div>
+                </div>
+                <div class="tab-pane fade"  id="c">
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <img class="img-fluid" src="imgs/hotel-bed-suite.avif" height="500" width="700">
+                        </div>
+                        <div class="col-6">
+                            <h1>Master Suite</h1>
+                            <p>Hello</p>
+                            <input type="submit" value="Reserve Now" class="btn bg-layout" ></input>
+                        </div>
+                </div>
+                </div>
+                
+             </div>
+        </div>
+        
+        <footer>
+            <div class="container text-center">
+                <div class="row mb-2">
+                    <div class="col">
+                        <h4>Contact</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>202-555-0138</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>Greenpalmshotel@gmail.com</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>Visit us on:</p><a class="text-dark" href="https://www.instagram.com/?hl=en">Instagram  </a> || <a class="text-dark" href="https://www.facebook.com/">Facebook</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </footer>
+       
+       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      
+   </body>
+
+
+
+</html>

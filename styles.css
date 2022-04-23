@@ -1,4 +1,165 @@
+
+
 body{
     
-    padding:30px;
+    margin:10px;
+    background-color: rgb(244, 248, 253);
+    font-family:"Amiko";
+    
+    
 }
+p{
+    font-style: italic;
+}
+footer{
+    background-color: rgba(121, 121, 121, 0.164);
+    margin-top: 10px;
+    padding-top: 20px;
+    
+}
+a{
+    color:aliceblue;
+}
+a:hover{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+li{
+    margin-right: 50px;
+}
+
+.pg-two{
+    
+    margin-top: 60px;
+}
+.navbar{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: small;
+    background-color:rgba(119, 119, 119, 0.473);
+    
+
+}
+.navbar h6{
+    margin-top: -10px;
+    margin-left: 130px;
+   
+}
+
+.navbar ul:last-child{
+    padding-left: 80px;
+}
+.center{
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    
+    
+}
+.paralax{
+    margin-top:-99px;
+    margin-left:15px;
+    background-image: url("imgs/hotel-main-pic.jpg");
+    height: 750px;
+    width: 1300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.paralax-two{
+    margin-top:-99px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    background-image: url("imgs/accommidations-bg.jpeg");
+    height: 500px;
+    width: 1300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.paralax-three{
+    margin-top:-99px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    background-image: url("imgs/amenities-bg-two.webp");
+    height: 500px;
+    width: 1300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.paralax-four{
+    margin-top:-99px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    background-image: url("imgs/contact-bg.jpeg");
+    height: 500px;
+    width: 1300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.row-content{
+    border-bottom: 1px ridge;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+.bg-layout{
+    background-color: rgba(136, 136, 136, 0.137);
+    
+}
+.add-shadow{
+    box-shadow: 20px 20px 35px #d0d0d0,
+    -20px -20px 35px white;
+}
+.img-overlay-container{
+    position: relative;
+    display: inline;
+    
+}
+.img-overlay{
+    position: absolute;
+    left:50px;
+}
+
+.add-outline{
+    outline: 10px solid black;
+}
+.title-center{ 
+   position: relative;
+   top:35%;
+   left:30%;
+   font-size: 120px;
+   color: rgb(240, 248, 255);
+   
+}
+.title-center-long{ 
+    position: relative;
+    top:35%;
+    left:20%;
+    font-size: 120px;
+    color: rgb(240, 248, 255);
+    
+ }
+ .add-txt-outline{
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+ }
+ .add-spacing{
+     line-height: 50px;
+ }
